@@ -1,0 +1,243 @@
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    font-size: 1.1em;    
+}
+
+footer {
+    text-align: center;
+    background-color: #123458;
+    color: #F1EFEC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #123458;
+    margin-top: 30px;
+
+}
+
+.row .foto{
+    width: 55%;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    filter: drop-shadow(#979797 2px 2px 20px)
+}
+
+p.justificado {
+    text-align: justify;
+
+}
+
+.tab{
+    margin-left: 1em;
+    
+}
+
+.hrBcg {
+    background-color: #D4C9BE;
+}
+
+.subTopBcgSobre {
+    background-color: #123458;
+    width: 5em;
+}
+.subTopBcgObjetivo {
+    background-color: #123458;
+    width: 7em;
+}
+
+.subTopBcgFormacao {
+    background-color: #123458;
+    width: 8em;
+}
+
+.subTopBcgExp {
+    background-color: #123458;
+    width: 29em;
+    
+}
+
+.table-striped{
+    box-shadow: #929191 0 5px 20px ;
+}
+
+.subTopBcgHab {
+    background-color: #123458;
+    width: 18em;
+}
+.subTopBcgSS {
+    background-color: #123458;
+    width: 8em;
+}
+.subTopBcgHS {
+    background-color: #123458;
+    width: 9em;
+}
+
+.subTopBcgCont {
+    background-color: #123458;
+    width: 6.5em;
+}
+
+.subTopBcgEnd {
+    background-color: #123458;
+    width: 8em;
+}
+
+a.menu {
+    color: #F1EFEC;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #123458;
+    border-radius: 20px;
+}
+
+a.menu:hover {
+    background-color: #4d657f92;
+    color: white;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+button.formulario {
+    background-color: #123458;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: #000000 0 2px 10px ;
+}
+
+button.formulario:hover {
+    background-color: #12345886 ;
+    color: white;
+}
+
+th.curriculo {
+    background-color: #123458;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+}
+
+th.largo20{
+    width: 20%;
+}
+
+th.largo10{
+    width: 10%;
+}
+
+#menu {
+    background-color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#sobre {
+    scroll-margin-top: 85px;
+}
+
+#formacao{
+    scroll-margin-top: 85px;
+}
+
+#experiencia{
+    scroll-margin-top: 85px;
+}
+
+#habilidades{
+    scroll-margin-top: 85px;
+}
+
+#contato{
+    scroll-margin-top: 85px;
+}
+
+#endereco{
+    scroll-margin-top: 85px;
+}           
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: #000000 0 2px 10px ;
+}
+
+form input, label, textarea {
+    border-radius: 5px
+}
+
+
+
+
+
+.split-text-container {
+    display: flex;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-part {
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+}
+
+.text-part.left {
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+}
+
+.text-part.right {
+    transform: translateX(200%);
+    animation-name: slide-in-right;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-500%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(500%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
